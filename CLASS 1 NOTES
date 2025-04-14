@@ -5,7 +5,8 @@ It usually includes comments that describe what each part of the script does.
   •	Executes commands one by one, line by line.
   •	It combines multiple commands and runs them together.
   •	Unlike the terminal where you type one command at a time, a shell script automates the process.
-________________________________________
+________________________________________________________________________________________________________________________
+
 When Do We Need a Shell Script?
   •	When you need to run multiple shell commands, especially if you’ll run them again later.
   •	If you know the steps of a task, you can write them into a script and reuse it.
@@ -13,7 +14,8 @@ When Do We Need a Shell Script?
   •	They reduce the chance of human error.
   •	Scripts can complete tasks faster than humans.
   •	Even for tasks you rarely do — if they’re complex, scripting helps!
-________________________________________
+________________________________________________________________________________________________________________________
+
 Why Use Shell Scripts?
   •	Fast to write and easy to learn.
   •	No need to worry about low-level programming stuff.
@@ -23,4 +25,20 @@ Why Use Shell Scripts?
   •	Makes it easy to share or hand over tasks to others.
   •	Acts as documentation for what steps were taken.
   •	Saves time and increases efficiency.
+
+________________________________________________________________________________________________________________________________________
+Your First Shell Script
+Let’s walk through a basic example to see how shell scripting works.
+
+Step 1: Create the Script
+Open your terminal and create a new file called first.sh.
+Add the following lines:
+
+  echo "Hello World"
+pwd
+date
+
+
+
+
 
