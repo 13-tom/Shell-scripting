@@ -27,18 +27,38 @@ Why Use Shell Scripts?
   •	Saves time and increases efficiency.
 
 ________________________________________________________________________________________________________________________________________
+
 Your First Shell Script
 Let’s walk through a basic example to see how shell scripting works.
 
 Step 1: Create the Script
-Open your terminal and create a new file called first.sh.
+Open your terminal and create a new file 
+    vim hello.sh
 Add the following lines:
+    pwd
+    ls
+    date
 
-  echo "Hello World"
-pwd
-date
+Step 2: Give Execute Permission
+By default, the script doesn't have permission to run. Use chmod to give it execute rights:
+  chmod +x first.sh
 
+Step 3: Run the Script
+Execute the script using:
+  ./first.sh
 
+Expected Output
+    /home/tom/shell_scripting
+    echo.sh  hello.sh
+    Tue Apr 8 21:34:31 IST 2025
+
+________________________________________________________________________________________________________________________________________
+
+Explaining the Commands
+pwd – Shows the current working directory.
+date – Displays the current date and time.
+chmod +x – Grants execute permission to the script.
+./first.sh – Runs the script from the current directory.
 
 
 
